@@ -87,20 +87,6 @@ class MenuTest {
 
     @Test
     void add() {
-        /*
-        //AddressEntry entry = new AddressEntry("a","b","c","d","e",6,"4","af");
-        AddressBook book = new AddressBook();
-        String input =
-                "a"+System.getProperty("line.separator")+"b"+System.getProperty("line.separator")+"c"+System.getProperty("line.separator")+"d"+System.getProperty("line.separator")+"e"+System.getProperty("line.separator")+"6"+System.getProperty("line.separator")+"adf"+System.getProperty("line.separator")+"adf"+System.getProperty("line.separator");
-
-        InputStream inputStream = System.in;
-        System.setIn(new ByteArrayInputStream(input.getBytes())) ;
-
-        Menu.add(book);
-
-        System.setIn(inputStream);
-        assertNotEquals(book.addressEntryList.size(), 0);
-         */
     }
 
     @Test
